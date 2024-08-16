@@ -1,0 +1,21 @@
+{
+    "name": "sukhov/slugger",
+    "description": "String Slugger",
+    "type": "library",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Sukhov\\Slugger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vladislav Sukhov",
+            "email": "VSukhov@prosv.ru"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+      "ext-mbstring": "*"
+    }
+}
